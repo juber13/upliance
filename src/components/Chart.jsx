@@ -29,6 +29,9 @@ ChartJS.register(
     ArcElement
 );
 
+// Configuration for the LineElement
+ChartJS.defaults.elements.line.tension = 0.4; // Set the tension to control the curvature
+
 // Chart component to display counter values as a line chart
 const CounterChart = ({ dataPoints }) => {
     // data for the chart
@@ -37,10 +40,10 @@ const CounterChart = ({ dataPoints }) => {
         datasets: [
             {
                 label: "Counter chart",
-                data: dataPoints, // border color
-                // backgroundColor: "red", // fill color
-                // innerWidth: 10,
-                // fill: true,
+                data: dataPoints,
+                backgroundColor: "rgba(75, 192, 192, 0.2)", // Set the background color
+                borderColor: "rgba(75, 192, 192, 1)", // Set the border color
+                borderWidth: 2, // Set the border width
             },
         ],
     };
@@ -57,6 +60,9 @@ const CounterChart = ({ dataPoints }) => {
                         weight: "bold",
                     },
                 },
+                grid: {
+                    display: false // this will remove the horizontal grid lines
+                }
             },
             y: {
                 title: {
@@ -67,6 +73,9 @@ const CounterChart = ({ dataPoints }) => {
                         weight: "bold",
                     },
                 },
+                grid: {
+                    display: false // this will remove the vertical grid lines
+                }
             },
         },
     };

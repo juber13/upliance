@@ -61,7 +61,7 @@ const Counter = () => {
                     <CounterButtons onIncrement={increment} onDecrement={decrement} onReset={reset} />
                 </div>
             </div>
-            <div className="w-[50%] h-auto mt-2  shadow-md border bg-gray-100">
+            <div className="w-[50%] h-auto mt-2  shadow-md border bg-gray-800">
                 <Chart dataPoints={dataPoints} />
             </div>
         </animated.div>
