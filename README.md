@@ -1,10 +1,10 @@
 # Web Application with multiple services
 
-## The web application where user can intractive with chart with their counter value
+The web application where user can intractive with chart with their counter value
 
-## User can save their data in localeStorage
+User can save their data in localeStorage
 
-## User can play around with text edior for formatting the text
+User can play around with text editor for formatting the text
 
 # images
 
