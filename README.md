@@ -1,8 +1,27 @@
-# React + Vite
+# Web Application with multiple services
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## The web application where user can intractive with chart with their counter value
 
-Currently, two official plugins are available:
+## User can save their data in localeStorage
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## User can play around with text edior for formatting the text
+
+# images
+
+![Project Screenshot](./images/Screenshot%202024-05-24%20095521.png)
+![Project Screenshot](./images/Screenshot%202024-05-24%20095536.png)
+![Project Screenshot](./images/Screenshot%202024-05-24%20095549.png)
+![Project Screenshot](./images/Screenshot%202024-05-24%20095558.png)
+
+
+## texh stacks used
+
+# Ract
+# tailwind
+# react-router-dom
+# char.js
+# React-icons
+# Redux-toolkit
+# locale Storage
+# jodit-react editor
+
