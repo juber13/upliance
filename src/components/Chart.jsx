@@ -69,7 +69,7 @@ const CounterChart = ({ dataPoints }) => {
                     display: true,
                     color: "black",
                     font: {
-                        size: 14,
+                        size: 15,
                         weight: "bold",
                     },
                 },
